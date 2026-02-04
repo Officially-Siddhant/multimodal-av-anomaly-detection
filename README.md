@@ -1,0 +1,5 @@
+# Multimodal Embodied AI for Anomaly Detection in Autonomous Vehicles
+
+This project develops a multimodal anomaly detection framework for autonomous vehicles, integrating the (NVIDIA Cosmos-Reason1-7B)[https://huggingface.co/nvidia/Cosmos-Reason1-7B] Vision-Language Model for external semantic reasoning and an unsupervised Isolation Forest algorithm for internal fault monitoring.
+
+The system processes data from cameras, LiDAR, and IMU sensors to detect environmental hazards and mechanical failures, such as fuel leaks and wheel misalignments. Validated using CARLA simulations and real-world datasets, the model achieved 100% recall for external anomaly detection on the Hazard Perception Test dataset and a mean inference time of 500ms. Future work aims to improve precision and recall through enhanced dataset labeling schemes.
