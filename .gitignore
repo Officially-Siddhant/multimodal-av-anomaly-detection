@@ -7,7 +7,7 @@
 # =========================
 # Root files to ignore
 # =========================
-CarlaUE4
+CarlaUE4.exe
 CHANGELOG
 Dockerfile
 LICENSE
