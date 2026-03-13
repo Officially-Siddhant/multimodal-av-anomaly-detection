@@ -1,10 +1,41 @@
+# =========================
+# System files
+# =========================
 .DS_Store
-*.DS_Store
+**/.DS_Store
 
-# To ignore files inside a folder, but track the folder itself, use this:
-# folder_name/*
+# =========================
+# Root files to ignore
+# =========================
+CarlaUE4
+CHANGELOG
+Dockerfile
+LICENSE
 
-figures/*
-ros2/*
-fcdd/*
+# =========================
+# Large CARLA / simulation directories
+# =========================
+figures/
+ros2/
+fcdd/
+Co-Simulation/
+CARLAUE4/
+Engine/
+HDMaps/
+Plugins/
 
+# =========================
+# PythonAPI handling
+# =========================
+
+# Ignore everything inside PythonAPI
+PythonAPI/*
+
+# Allow examples directory
+!PythonAPI/examples/
+
+# Ignore everything inside examples
+PythonAPI/examples/*
+
+# Allow scripts folder
+!PythonAPI/examples/scripts/
