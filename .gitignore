@@ -1,1 +1,10 @@
 .DS_Store
+*.DS_Store
+
+# To ignore files inside a folder, but track the folder itself, use this:
+# folder_name/*
+
+figures/*
+ros2/*
+fcdd/*
+
